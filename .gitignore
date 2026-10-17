@@ -161,3 +161,18 @@ cython_debug/
 
 .ruff_cache/
 *.zip
+
+# 本地开发配置
+.idea/
+.DS_Store
+
+# 下载数据和训练产物
+/data/
+/cs336_basics/data/
+/artifacts/
+*.pt
+*.pth
+*.bin
+*.npy
+*.pkl
+*.prof
